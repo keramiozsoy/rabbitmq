@@ -11,6 +11,18 @@ guest
 guest
 ```
 
+## Exchange Types
+
+- DIRECT
+- TOPIC
+- FANOUT
+- HEADERS 
+- SYSTEM
+
+
+## Example 1
+
+Topic Exchange
 
 ```SHELL
 http://localhost:8080/publish?message=HelloRabbitMQ

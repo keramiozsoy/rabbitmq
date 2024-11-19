@@ -18,4 +18,5 @@ http://localhost:8080/publish?message=HelloRabbitMQ
 
 
 ## Resources
-https://www.rabbitmq.com/tutorials
+- https://www.rabbitmq.com/tutorials
+- https://www.rabbitmq.com/docs/shovel

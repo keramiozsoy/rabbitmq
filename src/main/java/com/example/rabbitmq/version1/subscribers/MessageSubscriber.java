@@ -1,6 +1,6 @@
-package com.example.rabbitmq.subscribers;
+package com.example.rabbitmq.version1.subscribers;
 
-import com.example.rabbitmq.configs.RabbitMQConfig;
+import com.example.rabbitmq.version1.configs.RabbitMQConfig;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 

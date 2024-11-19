@@ -1,6 +1,6 @@
-package com.example.rabbitmq.api;
+package com.example.rabbitmq.version1.apis;
 
-import com.example.rabbitmq.publishers.MessagePublisher;
+import com.example.rabbitmq.version1.publishers.MessagePublisher;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

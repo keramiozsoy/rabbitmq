@@ -1,6 +1,6 @@
-package com.example.rabbitmq.publishers;
+package com.example.rabbitmq.version2.publishers;
 
-import com.example.rabbitmq.configs.RabbitMQConfig;
+import com.example.rabbitmq.version2.configs.RabbitMQConfig;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 
@@ -14,12 +14,12 @@ public class MessagePublisher {
     }
 
 
-    public void publish(String message){
+    public void publish(String routingKey, String message){
         rabbitTemplate.convertAndSend(
                 RabbitMQConfig.EXCHANGE_NAME,
-                RabbitMQConfig.ROUTING_KEY,
+                routingKey,
                 message
         );
-        System.out.println("publish() : " + message);
+        System.out.println("publish() : " + " key: " + routingKey + " message: " + message);
     }
 }

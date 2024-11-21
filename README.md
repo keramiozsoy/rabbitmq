@@ -41,11 +41,11 @@ GET http://localhost:8080/publish?type=push&message=Hello+Push
 
 ## Resources
 - https://www.rabbitmq.com/tutorials
-- https://www.rabbitmq.com/docs/shovel
-( To move messages, the shovel plugin must be enabled, try:
+- https://www.rabbitmq.com/docs/shovel ( To move messages, the shovel plugin must be enabled)
+```SHELL
 $ rabbitmq-plugins enable rabbitmq_shovel rabbitmq_shovel_management
-)
+```
 
 
 ## TODO
-- create repo as multi-module.
+- update repository as multi-module project.
